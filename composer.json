@@ -1,0 +1,13 @@
+{
+    "name": "ustim/gitdemo",
+    "description": "test",
+    "authors": [
+        {
+            "name": "ustim",
+            "email": "ustimn@gmail.com"
+        }
+    ],
+    "require": {
+        "str/str": "^1.0"
+    }
+}

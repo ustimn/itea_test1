@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1a49f7fc013771e63f3a033e144b8e2c",
+    "packages": [
+        {
+            "name": "str/str",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fe3dback/str.git",
+                "reference": "2af19426b8ff403d853e7d2c8856156e84804438"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fe3dback/str/zipball/2af19426b8ff403d853e7d2c8856156e84804438",
+                "reference": "2af19426b8ff403d853e7d2c8856156e84804438",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "danielstjules/stringy": "^3.1",
+                "php-coveralls/php-coveralls": "2.0.x-dev",
+                "phpbench/phpbench": "1.0.*",
+                "phpunit/phpunit": "^7.1@dev",
+                "ramsey/uuid": "^3.0@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Str\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel St. Jules",
+                    "email": "danielst.jules@gmail.com",
+                    "homepage": "http://www.danielstjules.com"
+                },
+                {
+                    "name": "fe3dback",
+                    "email": "fe3dback@yandex.ru"
+                },
+                {
+                    "name": "irhen",
+                    "email": "personalwonderland@gmail.com"
+                }
+            ],
+            "description": "A fast string manipulation library with multibyte support. Based on danielstjules/Stringy, with focus on speed.",
+            "homepage": "https://github.com/fe3dback/str",
+            "time": "2018-05-24T10:09:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
